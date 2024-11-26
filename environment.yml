@@ -1,0 +1,14 @@
+name: jupyter
+channels:
+  - defaults
+dependencies:
+  - ipywidgets
+  - jupyterlab[version='>=4.2']
+  - jupyterlab_widgets
+  - matplotlib[version='>=3.9']
+  - numpy[version='>=1.26']
+  - pandas[version='>=1.5']
+  - scipy[version='>=1.13']
+  - statsmodels[version='>=0.14']
+  - conda-forge::black-jupyter
+prefix: /home/david/anaconda3/envs/jupyter
